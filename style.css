@@ -77,10 +77,11 @@ color: hsl(200,100%, 20%);
 
 .day-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 75px);
+  grid-template-columns: repeat(auto-fit, 75px); 
   gap: 0.5rem;
   justify-content:center;
   padding: 1rem;
+  
 }
 
 .day-card {
