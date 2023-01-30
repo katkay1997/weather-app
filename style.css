@@ -76,7 +76,7 @@ color: hsl(200,100%, 20%);
 }
 
 .day-section {
-  /* grid-template-columns: repeat(auto-fit, 75px); */
+ 
   gap: 0.5rem;
   justify-content:center;
   padding: 1rem;
@@ -85,15 +85,14 @@ color: hsl(200,100%, 20%);
 }
 
 .day-card {
-  
-  align-items: center;
   border: 1px solid;
- 
-  
 }
 
 .flex-box{
- align-items:center ;
+display: grid;
+ /* align-items:center ; */
+
+  grid-template-columns: repeat(auto-fit, 75px); 
   
 }
 
