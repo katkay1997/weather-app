@@ -87,7 +87,8 @@ color: hsl(200,100%, 20%);
 
 .flex-box{
 display: grid;
- grid-template-columns: repeat(auto-fit, 75px); 
+grid-template-columns: repeat(auto-fit, 75px); 
+
 }
 
 .day-card-day {
@@ -109,6 +110,7 @@ display: grid;
 .hour-row:nth-child(2n) {
   background-color: hsl(200,60%, 70%);
 }
+/* this isn't working ^ */
 
 .hour-row > td {
   padding: 0.25rem 0.5rem;
