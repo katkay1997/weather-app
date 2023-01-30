@@ -72,16 +72,12 @@ color: hsl(200,100%, 20%);
 .value-sub-info {
   font-weight: lighter;
   font-size: 0.75rem;
-
 }
 
 .day-section {
- 
   gap: 0.5rem;
   justify-content:center;
   padding: 1rem;
- 
-  
 }
 
 .day-card {
@@ -90,10 +86,7 @@ color: hsl(200,100%, 20%);
 
 .flex-box{
 display: grid;
- /* align-items:center ; */
-
-  grid-template-columns: repeat(auto-fit, 75px); 
-  
+ grid-template-columns: repeat(auto-fit, 75px); 
 }
 
 .day-card-day {
