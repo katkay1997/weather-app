@@ -319,26 +319,30 @@
         <tr class="hour-row">
           <td>
             <div class="info-group"></div>
-            <div class="label" data-date></div>
+            <div class="label" data-day></div>
             <div data-time></div>
           </td> 
           <td>
-            <img src="img/cloud.svg" class="weather-icon"/>
+            <div class="info-group">
+            <div class="label"> Temp</div>
+            <div><span data-temp></span><span>&deg;</span></div>
+          </div>
           </td>
           <td>
             <div class="info-group"></div>
-            <div class="label">FL Temp</div>
-            <div>25&deg;</div>
+            <div class="label">FL Temp </div>
+            <div data-time></div>
+            <div><span data-fl-temp></span><span>&deg;</span></div>
           </td>
           <td>
             <div class="info-group"></div>
             <div class="label">Wind</div>
-            <div>26 <span class="value-sub-info">mph</span></div>
+            <div><span data-wind></span> <span class="value-sub-info">mph</span></div>
           </td>
           <td>
             <div class="info-group"></div>
             <div class="label">Precip</div>
-            <div>0 <span class="value-sub-info">in</span></div>
+            <div><span data-precip></span> <span class="value-sub-info">in</span></div>
           </td>
         </tr>
     </template>
