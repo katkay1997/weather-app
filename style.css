@@ -78,6 +78,7 @@ color: hsl(200,100%, 20%);
   gap: 0.5rem;
   justify-content:center;
   padding: 1rem;
+  width:100px;
 }
 
 .day-card {
