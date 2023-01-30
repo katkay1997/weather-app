@@ -310,11 +310,38 @@
       <template id="day-card-template">
         <div class="day-card">
           <img data-icon class="weather-icon"/>
-          <div class="day-card-day" data-date>Monday</div>
-            <div>32&deg;</div>
+          <div class="day-card-day" data-date></div>
+            <div><span data-temp></span><span>&deg;</span></div>
         </div>
       </template>
-      <template id="hour-row-template"></template>
+
+      <template id="hour-row-template">
+        <tr class="hour-row">
+          <td>
+            <div class="info-group"></div>
+            <div class="label" data-date></div>
+            <div data-time></div>
+          </td> 
+          <td>
+            <img src="img/cloud.svg" class="weather-icon"/>
+          </td>
+          <td>
+            <div class="info-group"></div>
+            <div class="label">FL Temp</div>
+            <div>25&deg;</div>
+          </td>
+          <td>
+            <div class="info-group"></div>
+            <div class="label">Wind</div>
+            <div>26 <span class="value-sub-info">mph</span></div>
+          </td>
+          <td>
+            <div class="info-group"></div>
+            <div class="label">Precip</div>
+            <div>0 <span class="value-sub-info">in</span></div>
+          </td>
+        </tr>
+    </template>
   </body>
   <script type="module" src="/main.js"></script>
 </html>
