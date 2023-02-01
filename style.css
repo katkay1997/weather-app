@@ -84,6 +84,7 @@ color: hsl(200,100%, 20%);
 .day-card {
   border: 1px solid;
   border-radius: 0.5rem;
+  padding-left: 5px;
 }
 
 .flex-box{
