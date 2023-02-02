@@ -10,5 +10,11 @@ export function getWeather(lat, lon,timezone) {
 
     }
      }
-    ).then(({data}))
+    ).then(({data}) => {
+        return  {
+            current: ,
+            daily: ,
+        }
+    }
+    )
 }
