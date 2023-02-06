@@ -20,4 +20,4 @@ export function getWeather(lat, lon,timezone) {
     )
 }
 
-function parseCurrentWeather()
+function parseCurrentWeather({current_weather, daily})
