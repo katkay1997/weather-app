@@ -23,7 +23,8 @@ export function getWeather(lat, lon,timezone) {
 function parseCurrentWeather({current_weather, daily}) {
     const {
         tempeature: currentTemp;
-        windspeed: windSpeed;
+        windspeed: windSpeed; 
+        weatherCode: iconCode;
     }
 
 };
