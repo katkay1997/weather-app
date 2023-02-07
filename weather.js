@@ -22,6 +22,10 @@ export function getWeather(lat, lon,timezone) {
 
 function parseCurrentWeather({current_weather, daily}) {
     return {
-        currentTemp:;
+        currentTemp: ,
+        highTemp: ,
+        lowTemp: ,
+        highFeelsLike: ,
+    
     }
 };
