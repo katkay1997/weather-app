@@ -26,6 +26,6 @@ function parseCurrentWeather({current_weather, daily}) {
         highTemp: ,
         lowTemp: ,
         highFeelsLike: ,
-    
+        lowFeelsLike: ,
     }
 };
