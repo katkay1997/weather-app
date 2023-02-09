@@ -29,5 +29,6 @@ function parseCurrentWeather({current_weather, daily}) {
         lowFeelsLike: ,
         windSpeed: ,
         precip: ,
+        iconCode: ,
     }
 };
