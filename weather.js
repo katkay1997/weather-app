@@ -21,7 +21,7 @@ export function getWeather(lat, lon,timezone) {
 }
 
 function parseCurrentWeather({current_weather, daily}) {
-    const(temperature:currentTemp,) = current_weather
+    const(temperature:currentTemp, windspeed:windSpeed) = current_weather
 
     return {
         currentTemp: ,
