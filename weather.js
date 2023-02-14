@@ -28,7 +28,8 @@ function parseCurrentWeather({current_weather, daily}) {
     }    = current_weather
 
     const {
-        
+        temperature: curretnemp,
+        windspeed: windSoeed,
     }
 
     return {
