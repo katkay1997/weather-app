@@ -27,6 +27,10 @@ function parseCurrentWeather({current_weather, daily}) {
          windspeed: windSpeed
     }    = current_weather
 
+    const {
+        
+    }
+
     return {
       /*  currentTemp: ,
         highTemp: ,
