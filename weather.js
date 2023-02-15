@@ -29,6 +29,7 @@ function parseCurrentWeather({current_weather, daily}) {
 
     const daily = {
         temperature_2m_max: [maxTemp],
+        temperature_2m_min: [minTemp],
     }
 
     return {
