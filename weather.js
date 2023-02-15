@@ -27,8 +27,8 @@ function parseCurrentWeather({current_weather, daily}) {
          windspeed: windSpeed
     }    = current_weather
 
-    const {
-        
+    const daily = {
+        temperature_2m_max: [maxTemp],
     }
 
     return {
