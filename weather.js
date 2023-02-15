@@ -22,10 +22,10 @@ export function getWeather(lat, lon,timezone) {
 }
 
 function parseCurrentWeather({current_weather, daily}) {
-    const {
+    const current_weather ={
         temperature: currentTemp,
          windspeed: windSpeed
-    }    current_weather
+    }    
 
     const daily = {
         temperature_2m_max: [maxTemp],
