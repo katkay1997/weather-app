@@ -32,6 +32,7 @@ function parseCurrentWeather({current_weather, daily}) {
         temperature_2m_min: [minTemp],
         apparent_temperature_max: [maxTemp],
         temperature_2m_max:[maxTemp],
+        precipitation_sum: [precip],
 
     }
 
