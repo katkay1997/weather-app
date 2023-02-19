@@ -34,16 +34,17 @@ function parseCurrentWeather({current_weather, daily}) {
         temperature_2m_max:[maxTemp],
         precipitation_sum: [precip],
 
+
     }
 
     return {
-      /*  currentTemp: ,
+       currentTemp: ,
         highTemp: ,
         lowTemp: ,
         highFeelsLike: ,
         lowFeelsLike: ,
         windSpeed: ,
         precip: ,
-        iconCode: , */
+        iconCode: ,
     }
 };
