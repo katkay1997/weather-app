@@ -40,7 +40,7 @@ function parseCurrentWeather({current_weather, daily}) {
     return {
        currentTemp: ,
         highTemp: maxTemp,
-        lowTemp: ,
+        lowTemp: minTemp,
         highFeelsLike: ,
         lowFeelsLike: ,
         windSpeed: ,
