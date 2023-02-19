@@ -38,9 +38,9 @@ function parseCurrentWeather({current_weather, daily}) {
     }
 
     return {
-       currentTemp: ,
-        highTemp: maxTemp,
-        lowTemp: minTemp,
+       currentTemp:Math.round(currentTemp),
+        highTemp: Math.round(maxTemp),
+        lowTemp: Math.round(minTemp),
         highFeelsLike: maxFeelsLike,
         lowFeelsLike: minFeelsLike,
         windSpeed: ,
