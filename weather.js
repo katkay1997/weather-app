@@ -14,8 +14,8 @@ export function getWeather(lat, lon,timezone) {
     .then(({data}) => {
         return  {
             current:parseCurrentWeather(data),
-            daily: parseDailyWeather(data),
-            hourly: parseHourlyWeather(data),
+            //daily: parseDailyWeather(data),
+            //hourly: parseHourlyWeather(data),
         }
     }
     ) 
