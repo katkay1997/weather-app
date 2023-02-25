@@ -48,3 +48,5 @@ function parseCurrentWeather({current_weather, daily}) {
         iconCode: ,
     }
 };
+
+function 
