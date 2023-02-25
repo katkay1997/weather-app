@@ -49,4 +49,4 @@ function parseCurrentWeather({current_weather, daily}) {
     }
 };
 
-function 
+function parseDailyWeather()
