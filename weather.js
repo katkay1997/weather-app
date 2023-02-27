@@ -53,6 +53,7 @@ function parseDailyWeather({ daily }) {
     return daily.time.map(time, index) => {
         return {
             timestamp: time * 1000,
+            iconCode:daily.weathercode[index] //35:52
         }
     }
 };
