@@ -12,6 +12,7 @@ export function getWeather(lat, lon,timezone) {
      }
     )
     .then(({data}) => {
+        // return data // 36:09
         return  {
             current:parseCurrentWeather(data),
             //daily: parseDailyWeather(data),
