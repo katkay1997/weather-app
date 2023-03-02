@@ -59,3 +59,7 @@ function parseDailyWeather({ daily }) {
         }
     }
 };
+
+function parseHourlyWeather({hourly, current_weather}) {
+
+};
