@@ -61,5 +61,5 @@ function parseDailyWeather({ daily }) {
 };
 
 function parseHourlyWeather({hourly, current_weather}) {
-    return 
+    return hourly.time.map((time, index))
 };
