@@ -64,7 +64,7 @@ function parseHourlyWeather({hourly, current_weather}) {
     return hourly.time.map((time, index)) => {
         return {
             timestamp: time * 1000,  //37:25
-            iconCode:
+            iconCode: hourly.weathercode[index],
         }
     }
 };
