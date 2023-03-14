@@ -61,11 +61,11 @@ function parseDailyWeather({ daily }) {
 };
 
 function parseHourlyWeather({hourly, current_weather}) {
-    return hourly.time.map((time, index)) => {
+    return hourly.time.map((time, index)) =>
         return {
             timestamp: time * 1000,  //37:25
             iconCode: hourly.weathercode[index],
-            temp: Math.round, 
+            temp: Math.round(hourly.temperature_2m[index]), 
         }
     }
 };
