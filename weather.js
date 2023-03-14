@@ -65,7 +65,7 @@ function parseHourlyWeather({hourly, current_weather}) {
         return {
             timestamp: time * 1000,  //37:25
             iconCode: hourly.weathercode[index],
-            temp: , // :P
+            temp: Math.round, 
         }
     }
 };
