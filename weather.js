@@ -73,5 +73,14 @@ function parseHourlyWeather({hourly, current_weather}) {
 
 
 // weather api link pasted  25:36
-// The API information does not appear in the console log
+// The API information does not appear in the console log 27:57
 //my project progress is on 37:25 
+
+/*
+    You dont have to watch the whole video. You can start at 23:05. My real issue
+     At this time mark, the youtuber shows the weather API generator website. 
+     Here is the link: https://open-meteo.com/
+
+     I hope my code doesn't look messy to you
+
+*/
