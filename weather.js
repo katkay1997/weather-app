@@ -68,8 +68,8 @@ function parseHourlyWeather({hourly, current_weather}) {
             temp: Math.round(hourly.temperature_2m[index]), 
             temp: Math.round(hourly.temperature_2m[index]),
         }
-    }
-};
+    };
+
 
 
 // weather api link pasted  25:36
