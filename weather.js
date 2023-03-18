@@ -70,3 +70,8 @@ function parseHourlyWeather({hourly, current_weather}) {
         }
     }
 };
+
+
+// weather api link pasted  25:36
+// The API information does not appear in the console log
+//my project progress is on 37:25 
